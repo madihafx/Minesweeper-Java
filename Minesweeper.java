@@ -14,6 +14,7 @@ public class Minesweeper{
 		int numberOfBombs = 5;
 		Random rand = new Random();
 		
+		
 		//placing bombs in random spots
 		int placedBombs = 0;
 		while (placedBombs < numberOfBombs) {
