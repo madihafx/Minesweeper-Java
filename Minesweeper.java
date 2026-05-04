@@ -72,6 +72,12 @@ public class Minesweeper{
 			
 			revealed [r][c] = true;
 			
+			//checking for bomb here
+			if (matrix[r][c] == valueOfBomb) {
+				System.out.println("GAME OVER! You lose ˙◠˙");
+				gameOver = true;
+			}
+			
 			//prints contents of the cell if it has been revealed, dashes if it hasn't
 			for (int m = 0; m < 5; m++) {
 				for(int n = 0; n < 5; n++) {
