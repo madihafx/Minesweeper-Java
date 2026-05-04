@@ -72,20 +72,18 @@ public class Minesweeper{
 			int r = scanner.nextInt();
 			int c = scanner.nextInt();
 			
-<<<<<<< HEAD
 			revealed [r][c] = true;
 			
-			//checking for bomb here
+			//checking for bombs here
 			if (matrix[r][c] == valueOfBomb) {
 				System.out.println("GAME OVER! You lose ˙◠˙");
 				gameOver = true;
 			}
 			
-=======
+
 			//explanation of reveal method is in comments within the method
 			reveal(matrix, revealed, r, c);
 	
->>>>>>> f70750ef54dbc06a187afcb2aa5f5ec96f3524b5
 			//prints contents of the cell if it has been revealed, dashes if it hasn't
 			//this code generates the display the player sees, a new one is printed with each new input
 			for (int m = 0; m < 5; m++) {
