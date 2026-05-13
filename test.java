@@ -8,7 +8,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class test {
+public class main {
 
 
    // In-game symbols
@@ -23,7 +23,7 @@ public class test {
    static final int MAX_SIZE = 20;
 
 
-   // Main program
+   // Main
    public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
 
